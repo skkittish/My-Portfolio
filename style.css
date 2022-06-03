@@ -1,0 +1,136 @@
+.bgimage{
+    height: 100vh;
+    background: url("r.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.hero_title{
+
+    font-size: 4.5rem;
+}
+
+.hero_desc{
+    font-size: 2rem;
+}
+
+.hero-text{
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.nav-link{
+    color: green;
+}
+.nav-link:hover{
+    background-color: white;
+    color: goldenrod;
+    padding: 5px;
+}
+.imageAboutPage {
+    width: 100%;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+   
+    color: rgb(16, 136, 16);
+}
+.servicesText:hover {
+    color: white;
+    border: 1px solid #062a61;
+    background-color: #043055;
+}
+h1{
+    color: #5a4707;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+#services{
+    background: url("gol.jpg");
+    padding-bottom: 10px;
+}
+#portfolio{
+    background: url("port.jpg");
+    padding-bottom: 10px;
+}
+#contact{
+    background: url("contact.jpg");
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #eaf1ea;
+}
+.fa {
+    color: #df8217;
+    
+}
+
+
+
+#footer {
+    background-color: #3228b4;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+h4{
+    color: green;
+}
+h4:hover{
+    color: white;
+}
+.mail{
+    color: black;
+    font-size: 25px;
+}
+
+.hero_desc{
+    width: 100%;
+    height: 100px;   
+    position: relative;   
+    animation-name: intro;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+}
+
+@keyframes intro {
+    0%   { left:0px; }
+    25%  { left:300px;}
+    50%  { left:300px; }
+    75%  { left:-300px;  }
+    100% { left:-300px; }
+}
+modal:hover{
+cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px){
+	
+	#about{ background:linear-gradient(yellow, blue);
+        color: white;
+
+	}
+}
+
+

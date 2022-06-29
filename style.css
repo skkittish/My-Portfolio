@@ -127,10 +127,59 @@ cursor: pointer;
 
 @media screen and (max-width: 1000px){
 	
-	#about{ background:linear-gradient(yellow, blue);
+	#about{ background:linear-gradient(rgb(0, 0, 0), blue);
         color: white;
 
 	}
 }
-
-
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  .up-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  .label {
+    width: 50px;
+    height: 29px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 6px;
+    position: relative;
+  }
+  .switcher {
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  .moon {
+    color: #ffa502;
+  }
+  
+  .sun {
+    color: #ff4757;
+  }
+  .checkbox:checked + .label .switcher {
+    transform: translateX(24px);
+  }
+  body.dark {
+  background-color: #1e272e;
+}
+body.dark li a {
+    color: #ecf0f3;
+  }
